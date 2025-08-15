@@ -1,0 +1,21 @@
+[project]
+name = "scheduleagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cryptography>=45.0.5",
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "gunicorn>=23.0.0",
+    "jose>=1.0.0",
+    "jwt>=1.4.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain-openai>=0.3.28",
+    "mcp>=1.12.2",
+    "pyjwt>=2.10.1",
+    "pymysql>=1.1.1",
+]
